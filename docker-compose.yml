@@ -1,8 +1,7 @@
 version: "3"
 services:
     landing-page:
-      command: npm run dev
-      container_name: landing-page
+      image: landing-page
       restart: always
       ports:
         - "3000:3000"
