@@ -1,0 +1,9 @@
+version: "3"
+services:
+    landing-page:
+      container_name: landing-page
+      environment:
+        - DOPPLER_TOKEN
+      restart: always
+      ports:
+        - "3000:3000"
